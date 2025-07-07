@@ -1,0 +1,26 @@
+/* Dashboard component specific styles */
+.competition-card {
+  transition: all 0.3s ease;
+}
+
+.competition-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.dark .stats-card {
+  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+}
+
+.leaderboard-item {
+  transition: background-color 0.2s ease;
+}
+
+.leaderboard-item:hover {
+  background-color: rgba(139, 92, 246, 0.1);
+}
+

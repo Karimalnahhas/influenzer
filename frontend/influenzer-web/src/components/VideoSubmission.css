@@ -1,0 +1,26 @@
+/* VideoSubmission component specific styles */
+.video-upload-area {
+  transition: all 0.3s ease;
+}
+
+.video-upload-area:hover {
+  border-color: #8b5cf6;
+  background-color: rgba(139, 92, 246, 0.05);
+}
+
+.video-player-overlay {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+.social-share-button {
+  transition: all 0.2s ease;
+}
+
+.social-share-button:hover {
+  transform: scale(1.02);
+}
+
+.upload-progress {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+}
+
